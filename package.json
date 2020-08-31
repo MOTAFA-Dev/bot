@@ -83,6 +83,6 @@
     "start": "node server.js"
   },
   "engines" : { 
-    "node" : "12x"
+    "node" : "12.x"
   }
 }       
