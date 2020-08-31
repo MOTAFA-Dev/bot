@@ -1,7 +1,7 @@
 // كل البكجات الي ممكن تحتجها في اي بوت
 const { Client, RichEmbed } = require("discord.js");
 var { Util } = require('discord.js');
-const {TOKEN, YT_API_KEY, prefix, devs} = require('./config')
+const {YT_API_KEY, prefix, devs} = require('./config')
 const client = new Client({ disableEveryone: true})
 const ytdl = require("ytdl-core");
 const canvas = require("canvas");
